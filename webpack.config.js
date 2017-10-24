@@ -12,7 +12,7 @@ module.exports = {
   entry: {
     app: path.resolve(APP_PATH, 'index.js'),
     mobile: path.resolve(APP_PATH, 'mobile.js'),
-    vendors: ['jquery', 'moment', 'lodash']
+    vendors: ['zepto', 'moment', 'lodash']
   },
   output: {
     path: BUILD_PATH,
@@ -61,6 +61,23 @@ module.exports = {
       {
         test: /\.(png|jpg)$/,
         loader: 'url?limit=40000'
+      },
+       //处理html模板
+	    {
+	        test: /\.html$/,
+	        loader: 'html-loader',
+	        include: APP_PATH
+	    },
+	    //处理zepto的commonjs规范兼容
+	    {
+	      test: require.resolve('zepto'),
+	      loader: 'exports-loader?window.Zepto!script-loader'
+	    }
+    ],
+    rules: [
+      {
+        test: /.art$/,
+        use: [ 'art-template-loader' ]
       }
     ]
   },

@@ -1,8 +1,5 @@
 import '../style/main.css';
 import '../style/style.css';
-
-import generateText from './sub';
-import moment from 'moment';
 /*
  * 引入jquery plugin 有两种方法
  * 第一种把jQuery直接作成一个全局变量 这样在每个脚本中都可以直接使用
@@ -16,8 +13,8 @@ import moment from 'moment';
 //第一种方法 请看webpack.config.js 使用第一种时候可以完全注释掉第二种
 
 //2nd way start
-import $ from 'jquery';
-import 'imports?jQuery=jquery!./plugin.js';
+import $ from 'zepto';
+
 //2nd way end
 $('body').append('<h1>Hello Worldsss</h1>');
 

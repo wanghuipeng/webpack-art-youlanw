@@ -2,8 +2,11 @@
 <html>
   <head>
     <title><%= htmlWebpackPlugin.options.title %>_优蓝网</title>
+    <%= require('html-loader!./layout/header-meta.html')  %>
   </head>
   <body>
-    <h3>Welcome to webpacks</h3>
+  	<div class="page-wrapper">
+        <%= require('html-loader!./components/banner.html')  %>
+  	</div>
   </body>
 </html>
