@@ -73,12 +73,6 @@ module.exports = {
 	      test: require.resolve('zepto'),
 	      loader: 'exports-loader?window.Zepto!script-loader'
 	    }
-    ],
-    rules: [
-      {
-        test: /.art$/,
-        use: [ 'art-template-loader' ]
-      }
     ]
   },
 
