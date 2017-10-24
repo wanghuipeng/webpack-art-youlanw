@@ -6,7 +6,7 @@ a:hover{color:#666}
 .list-classify a{display:inline-block;height:71px;padding:15px 10px;min-width:40px;line-height: 30px;}
 .list-classify li p{width:50px;height:50px;border-radius:50%;display:block;margin:0 auto;position:relative;}
 .list-classify li .img-1{background-color:#e6a762}
-.list-classify li p i{background:url(./images/img.png) no-repeat;width:30px;height:30px;display:inline-block;vertical-align:middle;position: absolute;left: 50%;margin-left: -15px;top: 50%;margin-top: -15px;background-size: 50px !important; -webkit-animation-duration: 1s;animation-duration: 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;-webkit-animation-name: rubberBand;animation-name: rubberBand;}
+.list-classify li p i{background:url(../images/img.png) no-repeat;width:30px;height:30px;display:inline-block;vertical-align:middle;position: absolute;left: 50%;margin-left: -15px;top: 50%;margin-top: -15px;background-size: 50px !important; -webkit-animation-duration: 1s;animation-duration: 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;-webkit-animation-name: rubberBand;animation-name: rubberBand;}
 .list-classify li .img-1 i{background-position:5px 1px;}
 .list-classify li .img-2 i{background-position:0px -33px;}
 .list-classify li .img-3 i{background-position:2px -67px;}
@@ -25,9 +25,9 @@ border-width: 0 0 0 1px;}
 .main-menu-sty span{display:block;height:36px;margin:0 auto;text-align:center;line-height:36px}
 .main-menu-sty span:active{background: #f5f5f5;}
 .main-menu-sty li span i{display:inline-block;vertical-align:middle;width:21px;height:23px;}
-.main-menu-sty .menu-1 i{background:transparent url(./images/menu-sty.png) no-repeat scroll 0px 2px/28px auto;}
-.main-menu-sty .menu-2 i{background:transparent url(./images/menu-sty.png) no-repeat scroll 0 -25px/28px auto;}
-.main-menu-sty .menu-3 i{background:transparent url(./images/menu-sty.png) no-repeat scroll 0 -48px/27px auto;}
+.main-menu-sty .menu-1 i{background:transparent url(../images/menu-sty.png) no-repeat scroll 0px 2px/28px auto;}
+.main-menu-sty .menu-2 i{background:transparent url(../images/menu-sty.png) no-repeat scroll 0 -25px/28px auto;}
+.main-menu-sty .menu-3 i{background:transparent url(../images/menu-sty.png) no-repeat scroll 0 -48px/27px auto;}
 .title-g, .title-g-2{border-image: url(data:image/gif;base64,R0lGODlhBQAFAIABAN3d3f///yH5BAEAAAEALAAAAAAFAAUAAAIHhB9pGatnCgA7) 2 stretch;
 -webkit-border-image: url(data:image/gif;base64,R0lGODlhBQAFAIABAN3d3f///yH5BAEAAAEALAAAAAAFAAUAAAIHhB9pGatnCgA7) 2 stretch;
 border-width: 1px 0px 1px 0px;}
@@ -59,22 +59,22 @@ border-width: 1px 0px 0px 1px;}
 .header .change:active {background-color: #f5f5f5;}
 .column-title-sty{padding:0 15px 0 0;height:40px;line-height:40px;border:1px solid #ddd;border-left:0;border-right:0;background-color:#f0f0f0;font-size:15px}
 .column-title-sty span{border-left:5px solid #2bb7ab;padding:0 0 0 10px}
-.joblist-each .company-sty{margin:5px 0;padding-left:15px;line-height:21px;height:21px;background:transparent url(./images/joblist.png) no-repeat scroll 0 -124px/50px auto;font-size:14px}
-.joblist-each .details{margin:5px 0;padding-left:20px;line-height:21px;height:21px;background:transparent url(./images/joblist.png) no-repeat scroll 0 -94px/50px auto;font-size:14px}
+.joblist-each .company-sty{margin:5px 0;padding-left:15px;line-height:21px;height:21px;background:transparent url(../images/joblist.png) no-repeat scroll 0 -124px/50px auto;font-size:14px}
+.joblist-each .details{margin:5px 0;padding-left:20px;line-height:21px;height:21px;background:transparent url(../images/joblist.png) no-repeat scroll 0 -94px/50px auto;font-size:14px}
 .joblist-each .details span{padding:0 5px}
 .joblist-each .details span:first-child{padding-left:0}
 .joblist-each .seal-1-sty,.joblist-each .seal-2-sty{width:45px;height:40px;position:absolute;left:0;top:0}
-.joblist-each .seal-1-sty{background:transparent url(./images/joblist.png) no-repeat scroll -1px -2px/46px auto}
-.joblist-each .seal-2-sty{background:transparent url(./images/joblist.png) no-repeat scroll -1px -44px/46px auto}
+.joblist-each .seal-1-sty{background:transparent url(../images/joblist.png) no-repeat scroll -1px -2px/46px auto}
+.joblist-each .seal-2-sty{background:transparent url(../images/joblist.png) no-repeat scroll -1px -44px/46px auto}
 .joblist-each .days{position:absolute;right:16px;bottom:21.5%;color:#ddd;background-color:rgba(94,94,94,.57);padding:3px;font-size:10px}
-.joblist-each .days:before{content:"";display:inline-block;height:14px;width:16px;background:transparent url(./images/time.png) no-repeat;background-size:12px;vertical-align:middle}
+.joblist-each .days:before{content:"";display:inline-block;height:14px;width:16px;background:transparent url(../images/time.png) no-repeat;background-size:12px;vertical-align:middle}
 @media all and (max-width:390px){.joblist-each .days{bottom:18.5%}
 }
 .joblist-each .pic{border:1px solid #eee;border-image: url(data:image/gif;base64,R0lGODlhBQAFAIABAN3d3f///yH5BAEAAAEALAAAAAAFAAUAAAIHhB9pGatnCgA7) 2 stretch;
 -webkit-border-image: url(data:image/gif;base64,R0lGODlhBQAFAIABAN3d3f///yH5BAEAAAEALAAAAAAFAAUAAAIHhB9pGatnCgA7) 2 stretch;
 border-width: 1px;}
 .joblist-each .company-sty,.joblist-each .salary{width:65%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.header .icon-search{background:transparent url(./images/m-common.png) no-repeat scroll 12px -95px/30px auto;position:absolute;width:45px;height:20px;padding-top:30px;right:45px;top:0;font-size:12px;text-align:center;color:#999}
+.header .icon-search{background:transparent url(../images/m-common.png) no-repeat scroll 12px -95px/30px auto;position:absolute;width:45px;height:20px;padding-top:30px;right:45px;top:0;font-size:12px;text-align:center;color:#999}
 @media all and (max-width:390px){.joblist-each .welfare{top:59px}
 }
 .banner{width:100%;position:relative}
@@ -130,13 +130,13 @@ border-width: 1px;}
 .company-details .info{color:#999;font-size:15px}
 .company-details .dashed{height:1px;border-bottom:1px dashed #ddd;margin-left:120px}
 .border-tb .area-sty{font-size:14px;margin:5px 0;height:21px;line-height:21px}
-.operate-menu .star:before{content:"";font-size:14px;padding-left:21px;background:transparent url(./images/little-img.png) no-repeat scroll 0 -31px/35px auto;display:inline;width:16px;height:16px}
-.operate-menu .star-empty:before{content:"";font-size:14px;padding-left:21px;background:transparent url(./images/little-img.png) no-repeat scroll 0 -83px/35px auto;display:inline;width:16px;height:16px}
+.operate-menu .star:before{content:"";font-size:14px;padding-left:21px;background:transparent url(../images/little-img.png) no-repeat scroll 0 -31px/35px auto;display:inline;width:16px;height:16px}
+.operate-menu .star-empty:before{content:"";font-size:14px;padding-left:21px;background:transparent url(../images/little-img.png) no-repeat scroll 0 -83px/35px auto;display:inline;width:16px;height:16px}
 .area-sty .a-green{position:absolute;right:0;top:0;color:#55c5ba}
 .area-sty span{width:89%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
 .title-g.authentic{position:relative;}
 .title-g.authentic p{color:#333}
-.title-g.authentic p:before{content:"";font-size:15px;padding-left:23px;background:transparent url(./images/little-img.png) no-repeat scroll 1px 1px/32px auto;display:inline}
+.title-g.authentic p:before{content:"";font-size:15px;padding-left:23px;background:transparent url(../images/little-img.png) no-repeat scroll 1px 1px/32px auto;display:inline}
 .job_each{font-size:14px;position:relative;border-bottom:1px solid #DDD;padding-bottom:10px;background:#FFF none repeat scroll 0 0;color:#999;padding-top:10px}
 .job_each li{padding:0 15px}
 .job_each .info{line-height:32px}
@@ -150,7 +150,7 @@ border-width: 1px;}
 .company-detail-des .interviewed{position:relative;padding:5px 15px 5px 85px}
 .company-detail-des .interviewed li{margin:5px 0}
 .company-detail-des .interviewed li:first-child img{height:60px;width:60px;position:absolute;left:10px;border-radius:50%;top:0}
-.company-detail-des .interviewed li .stars i{background:url(./images/little-img-1.png) no-repeat 0 -26px;width:15px;height:16px;display:inline-block;vertical-align:middle;background-size:31px}
+.company-detail-des .interviewed li .stars i{background:url(../images/little-img-1.png) no-repeat 0 -26px;width:15px;height:16px;display:inline-block;vertical-align:middle;background-size:31px}
 .company-detail-des .interviewed li .stars i.half{background-position:0 -47px}
 .company-detail-des .interviewed li .stars i.empty{background-position:0 -71.5px}
 .company-detail-des .interviewed li p:first-child{float:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:60%}
@@ -180,7 +180,7 @@ label.left-bar{border-left:4px solid #2BB7AB;padding:0 0 0 7px;display:inline-bl
 .h1-g{display:inline}
 .arrow-r.ellipsis{padding-right:35px!important}
 .fg-info{color:#999;background-color:#fff;padding:4px 15px;font-size:13px}
-.question-icon:before{content:'';display:block;position:absolute;width:15px;height:20px;right:3px;top:0;background:url(./images/m-job.png) no-repeat 0 -156px;background-size:30px}
+.question-icon:before{content:'';display:block;position:absolute;width:15px;height:20px;right:3px;top:0;background:url(../images/m-job.png) no-repeat 0 -156px;background-size:30px}
 .tab-g-title{border-top:1px solid #eee}
 .job-summary{line-height:1.7;padding:5px 15px 10px 125px;min-height:78px}
 .job-summary img{position:absolute;left:15px;top:9px;width:90px;height:68px;padding:3px 4px;border:1px solid #efefef;border-radius:2px}
@@ -200,7 +200,7 @@ label.left-bar{border-left:4px solid #2BB7AB;padding:0 0 0 7px;display:inline-bl
 .block-title .more{font-size:14px;color:#087bcc;position:absolute;right:10px}
 .title-g{font-weight:400}
 .title-g .more{font-weight:400;font-size:15px;color:#2BB7AB;right:15px}
-.title-g .more i.time{-webkit-animation:wobble 1s 1 ease-in-out;animation:wobble 1s 1 ease-in-out;-webkit-animation-delay:3s;animation-delay:3s;-webkit-animation-duration:1s;animation-duration:1s;background:transparent url(./images/menu-sty.png) no-repeat scroll 0 -114px/28px auto;display:inline-block;vertical-align:middle;width:21px;height:23px}
+.title-g .more i.time{-webkit-animation:wobble 1s 1 ease-in-out;animation:wobble 1s 1 ease-in-out;-webkit-animation-delay:3s;animation-delay:3s;-webkit-animation-duration:1s;animation-duration:1s;background:transparent url(../images/menu-sty.png) no-repeat scroll 0 -114px/28px auto;display:inline-block;vertical-align:middle;width:21px;height:23px}
 @-webkit-keyframes wobble{0%{-webkit-transform:none;transform:none}
 15%{-webkit-transform:translate3d(-25%,0,0) rotate3d(0,0,1,-5deg);transform:translate3d(-25%,0,0) rotate3d(0,0,1,-5deg)}
 30%{-webkit-transform:translate3d(20%,0,0) rotate3d(0,0,1,3deg);transform:translate3d(20%,0,0) rotate3d(0,0,1,3deg)}
@@ -245,7 +245,7 @@ label.left-bar{border-left:4px solid #2BB7AB;padding:0 0 0 7px;display:inline-bl
 .bottom-fixed li.btn-g{width:56%;border-radius:0;margin-top:0;line-height:55px}
 .bottom-fixed li.collect,.bottom-fixed li.consult{text-align:center;font-size:14px;color:#999;padding-top:30px;position:relative}
 .bottom-fixed li.consult{border-right:1px solid #e3e3e3}
-.bottom-fixed li.collect i,.bottom-fixed li.consult i{position:absolute;width:20px;height:25px;left:50%;margin-left:-10px;top:7px;background:url(./images/m-job.png) no-repeat 0 -37px;background-size:20px}
+.bottom-fixed li.collect i,.bottom-fixed li.consult i{position:absolute;width:20px;height:25px;left:50%;margin-left:-10px;top:7px;background:url(../images/m-job.png) no-repeat 0 -37px;background-size:20px}
 .bottom-fixed li.collect i{background-position:0 -169px;background-size:23px}
 .bottom-fixed li.collect.done{cursor:default;color:#aaa}
 .bottom-fixed li.collect.done i{background-position:-2px -221px;background-size:26px}
@@ -283,7 +283,7 @@ border-width: 0px 0 1px 0;}
 .question-list .title .status{position:absolute;right:0;font-size:14px;color:#999}
 .pdl20{padding-left:20px!important}
 .pdl34{padding-left:34px!important}
-.answer-title{background: #fff url(./images/menu-sty.png) no-repeat 13px -75px;background-size: 30px auto;padding-left: 45px;}
+.answer-title{background: #fff url(../images/menu-sty.png) no-repeat 13px -75px;background-size: 30px auto;padding-left: 45px;}
 .min-h470{min-height:470px}
 .min-h190{min-height:190px}
 .fail-tip-sty{font-size:17px;padding-bottom:0;color:#666;padding-top:0;padding-left:25px}
@@ -297,7 +297,7 @@ a.view-more2:hover,a.view-more:hover{color: #2bb7ac;}
 .lineh20{line-height:20px}
 .footer-contact{position:relative;width:290px;margin:10px auto}
 .footer-contact>li span{border: 1px solid #999;height: 42px;width: 42px;display: block;border-radius: 25px;margin: 0 auto 5px auto;position: relative;}
-.footer-contact>li span i,.footer .hot-line i{background: url(./images/footer-bg.png) no-repeat;background-size: 28px;width: 28px;height: 28px;display: inline-block;position: absolute;top: 7px;left: 7px;}
+.footer-contact>li span i,.footer .hot-line i{background: url(../images/footer-bg.png) no-repeat;background-size: 28px;width: 28px;height: 28px;display: inline-block;position: absolute;top: 7px;left: 7px;}
 .footer-contact .tel-s span i{background-position: 0px 3px;}
 .footer-contact .qq-s span i{background-position: 2px -95px;}
 .footer-contact li{float: left;display: inline-block;width: 50%;font-size: 13px;}
@@ -368,7 +368,7 @@ a.view-more2:hover,a.view-more:hover{color: #2bb7ac;}
 .empty-tips ul li{display:inline-block;width:33.33%;text-align:center;float:left;margin:7px 0}
 .empty-tips ul li a{display:block;background-color:#fff;width:80%;padding:5px 0;margin:0 auto;border:1px solid #e5e5e5}
 .bold{font-weight:700}
-.famous-ent-each .company{font-size:14px;margin:5px 0 5px 0;padding-left:15px;background:url(./images/m-common7.png) no-repeat 0 2px;background-size:50px;height:21px;line-height:21px}
+.famous-ent-each .company{font-size:14px;margin:5px 0 5px 0;padding-left:15px;background:url(../images/m-common7.png) no-repeat 0 2px;background-size:50px;height:21px;line-height:21px}
 .nav-menu .nearJob{background-position:12px -170px;}
 .nav-menu .areaJob{background-position:14px -208px;}
 .nav-menu .compRecruit{background-position:14px -242px;}
@@ -379,7 +379,7 @@ border-width: 0px 0px 0px 1px;}
 .comp-score .core-list li{border-top:1px solid #ddd;padding:0 15px;height:35px;line-height:35px}
 .comp-score .core-list li:first-child{border-top:none}
 .stars{display:inline-block;letter-spacing:-3px}
-.album ul li .album-del,.checkbox-sty .icon-check,.stars .star,.upload .album-camera{background:url(./images/evaluate.png) no-repeat;display:inline-block;vertical-align:middle}
+.album ul li .album-del,.checkbox-sty .icon-check,.stars .star,.upload .album-camera{background:url(../images/evaluate.png) no-repeat;display:inline-block;vertical-align:middle}
 .stars .star{width:22px;height:18px;background-position:-47px -2px!important;background-size:75px}
 .stars .star.star-all{background-position:0 -2px!important}
 .stars .star.star-half{background-position:-23px -2px!important}
@@ -400,9 +400,9 @@ border-width: 0px 0px 0px 1px;}
 .checkbox-sty .icon-check.checked{background-position:0 -59px!important}
 .h-45{height:45px}
 .company-info{background-color:#fff}
-.company-info .short .main-sty{width:100%;min-height:90px!important;background-color:#eee;background:url(./images/comp-banner.png) no-repeat;background-size:cover}
+.company-info .short .main-sty{width:100%;min-height:90px!important;background-color:#eee;background:url(../images/comp-banner.png) no-repeat;background-size:cover}
 .company-info .box-g-w-sty{background-color:#fff;margin:0 15px}
-.company-info .area-sty span .local{background:url(./images/m-common7.png) no-repeat 0 0;display:inline-block;vertical-align:middle;width:17px;height:18px;background-size:55px}
+.company-info .area-sty span .local{background:url(../images/m-common7.png) no-repeat 0 0;display:inline-block;vertical-align:middle;width:17px;height:18px;background-size:55px}
 .company-info .location{background-color:#fff;color:#999;border-bottom:1px solid #ddd}
 .company-info .comp-img{position:absolute;left:15px;top:9px;z-index:100!important}
 .company-info .comp-img img{height:70px;width:92px;display:inline-block;background-color:#fff;border:1px solid #fff}
@@ -498,7 +498,7 @@ border-width: 0px 0px 0px 1px;}
 .company-details .focus span{height:23px;display:inline-block;width:55px;line-height:23px;text-align:right;padding-left:5px;color:#54a9b5;opacity:.6;padding-right:5px}
 .company-details .focus a{color:#54a9b5;}
 .company-details .focus.active span{padding-left:15px;width:45px;opacity:1;text-align:center;padding-right:0}
-.company-details .focus label{background:#54a9b5 url(./images/focus.png) no-repeat;background-size:14px;background-position:0 -30px;width:15px;height:15px;border-radius:20px;display:inline-block;text-align:center;position:absolute;left:5px;top:4px;opacity:.6}
+.company-details .focus label{background:#54a9b5 url(../images/focus.png) no-repeat;background-size:14px;background-position:0 -30px;width:15px;height:15px;border-radius:20px;display:inline-block;text-align:center;position:absolute;left:5px;top:4px;opacity:.6}
 .company-details .focus.active label{background-position:0 0;opacity:1}
 .company-details .focus.active span:active{background-color:#eee}
 .welfare-sty{position:relative}
@@ -606,7 +606,7 @@ border-width: 0px 0px 0px 1px;}
 .joblist-sty .joblist-each .salary{margin:0;height:17px;line-height:17px;color:#ffb400;}
 .joblist-sty .joblist-each .location{position: absolute;right: 15px;font-size: 10px;bottom: 14px;width: 25%;text-align: right;}
 .joblist-sty .joblist-each .title{font-size:15px;width:100%}
-.joblist-sty .joblist-each .hot-icon{background: url(./images/m-common1.png) no-repeat;width: 50px;height: 45px;display: inline-block;position: absolute;left: 15px;top: 16px;background-position: -1px -323px;background-size: 55px;z-index: 5;}
+.joblist-sty .joblist-each .hot-icon{background: url(../images/m-common1.png) no-repeat;width: 50px;height: 45px;display: inline-block;position: absolute;left: 15px;top: 16px;background-position: -1px -323px;background-size: 55px;z-index: 5;}
 .joblist-sty .joblist-each .text-icon{background-position-y: -484px;}
 .joblist-sty .joblist-each .text-icon .text{color: #fff;transform: rotate(-45deg);-ms-transform: rotate(-45deg);-webkit-transform: rotate(-45deg);display: inline-block;font-size: 10px;padding-top:11px;}
 .joblist-sty .joblist-each .apply .btn-g{width:58px;margin-top:0;position:absolute;right:15px;top:47px;line-height:30px;height:30px;font-size:15px;}
@@ -628,7 +628,7 @@ border-width: 0px 0px 0px 1px;}
 @media all and (max-width:390px){.joblist-sty .joblist-each{padding:15px 15px 15px 111px;position:relative}
 }
 .joblist-each-foot .foot-m span{border:1px solid #f67373;color:#f67373;border-radius:4px;height:22px;line-height:22px;padding-right:8px;width:57px;text-align:right;display:inline-block;position:relative;font-size:13px}
-.joblist-each-foot .foot-m .famous-icon{background:#f67373 url(./images/m-common7.png) no-repeat;width:22px;height:22px;display:inline-block;background-position:2px -222px;vertical-align:middle;border-top-left-radius:2px;border-bottom-left-radius:2px;position:absolute;left:0;top:0;background-size:60px}
+.joblist-each-foot .foot-m .famous-icon{background:#f67373 url(../images/m-common7.png) no-repeat;width:22px;height:22px;display:inline-block;background-position:2px -222px;vertical-align:middle;border-top-left-radius:2px;border-bottom-left-radius:2px;position:absolute;left:0;top:0;background-size:60px}
 /**/
 .job-require{padding:10px 0;background:#fff;margin-bottom:10px}
 .job-require li{display:inline-block;float:left;width:24.7%;border-left:1px solid #ddd}
@@ -642,7 +642,7 @@ border-width: 0px 0px 0px 1px;}
 .mid-desc .desc-r{width:20px;height:20px;position:absolute;right:15px;top:24px}
 .foot-desc{background-color:#fff;padding:10px 15px;position:relative;margin:10px 0}
 .foot-desc .desc-l{padding-left:45px;position:relative}
-.foot-desc .desc-l .icon-edit{background:url(./images/img.png) no-repeat;background-position:0 -136px;background-size:50px;width:50px;height:40px;position:absolute;left:0;z-index:10;top:0}
+.foot-desc .desc-l .icon-edit{background:url(../images/img.png) no-repeat;background-position:0 -136px;background-size:50px;width:50px;height:40px;position:absolute;left:0;z-index:10;top:0}
 .foot-desc .desc-l p{color:#666;font-size:16px;line-height:22px}
 .foot-desc .desc-l p:last-child{color:#999;font-size:12px;line-height: 18px;}
 .foot-desc .desc-r .btn-g{background-color:#ee4e4e;border-radius:20px;width:80px;margin-top:0;position:absolute;line-height:30px;height:30px;font-size:15px;position:absolute;right:15px;top:15px}
@@ -683,7 +683,7 @@ border-width: 0px 0px 0px 1px;}
 .er-code .number-input li span{border: 1px solid #ddd;border-radius: 0;height: 35px;width: 35px;padding: 4px;font-size: 20px;text-align: center;display: inline-block;}
 .er-code .number-input li span.current{border-color: #ff6c00;}
 .hide-input{position: relative;left: -150px;top: -150px;height: 0;opacity: 0;}
-.return-arrow{background:url(./images/m-arrow.png) no-repeat;width:30px;height:30px;position:absolute;top:-3px;left:10px;background-position:8px -46px;background-size:27px;cursor:pointer;border-radius:4px}
+.return-arrow{background:url(../images/m-arrow.png) no-repeat;width:30px;height:30px;position:absolute;top:-3px;left:10px;background-position:8px -46px;background-size:27px;cursor:pointer;border-radius:4px}
 .return-arrow:active{background-color:#f5f5f5}
 .thirty-seconds .banner{background-color:#26c4b6;padding: 15px 0;text-align: center;}
 .thirty-seconds .banner img{height: auto;width: 90%;}
@@ -741,7 +741,7 @@ border-width: 1px 0 0 0;}
 .joblist-new .joblist-each .location{bottom: 10px;}
 }
 /*企业主页改版*/
-.company-info .area-sty .map{background:url(./images/app/address.png) no-repeat;display:inline-block;vertical-align:middle;width:20px;height:20px;background-size:20px;position:absolute;right:0;top:-2px}
+.company-info .area-sty .map{background:url(../images/app/address.png) no-repeat;display:inline-block;vertical-align:middle;width:20px;height:20px;background-size:20px;position:absolute;right:0;top:-2px}
 .company-info .box-g .bg-yellow{width:45%;margin:0 auto;height: 40px;line-height: 40px;font-size: 16px;}
 .company-info .box-g .bg-yellow:active,.company-info .box-g .bg-yellow:hover{background-color:#ffb400}
 /**/
@@ -820,7 +820,7 @@ border-width: 1px 0 0 0;}
 .joblist-sty .joblist-each .title .compName,.famous-ent-each li:nth-child(3) .compName{max-width:87%;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;display:inline-block;vertical-align:middle;width:auto}
 .joblist-sty .joblist-each .title .certify-label,.famous-ent-each li:nth-child(3) .certify-label{font-weight: normal;background-color:#ffc600;color:#fff;border-radius:2px;height:16px;display:inline-block;line-height:16px;padding:0 7px;margin-right:5px;font-size:12px;margin-left:5px;vertical-align:middle}
 .declaration{padding:0 15px 15px 15px;background-color: #fff;word-break: break-all;text-indent: 30px;}
-.joblist-sty .joblist-each .icon-re,.joblist-sty .joblist-each .icon-fan{background: url(./images/m-common1.png) no-repeat;width: 22px;height: 20px;display: inline-block;vertical-align: middle;background-size: 57px;}
+.joblist-sty .joblist-each .icon-re,.joblist-sty .joblist-each .icon-fan{background: url(../images/m-common1.png) no-repeat;width: 22px;height: 20px;display: inline-block;vertical-align: middle;background-size: 57px;}
 .joblist-sty .joblist-each .title .icon-re{background-position: 1px -550px;}
 .joblist-sty .joblist-each .title .icon-fan{background-position: -21px -447px;}
-.slide-hot{background: url(./images/m-common1.png) no-repeat;width: 15px;height: 15px;display: inline-block;background-size: 57px;background-position: 0px -480px;vertical-align: -2px;margin-left: 2px;}
+.slide-hot{background: url(../images/m-common1.png) no-repeat;width: 15px;height: 15px;display: inline-block;background-size: 57px;background-position: 0px -480px;vertical-align: -2px;margin-left: 2px;}

@@ -1,4 +1,5 @@
-import './main.css';
+import '../style/main.css';
+import '../style/style.css';
 import $ from 'jquery';
 import 'imports?jQuery=jquery!./plugin.js';
 

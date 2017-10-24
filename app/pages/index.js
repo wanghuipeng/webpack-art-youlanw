@@ -1,5 +1,5 @@
-import './main.css';
-import './main.scss';
+import '../style/main.css';
+import '../style/style.css';
 
 import generateText from './sub';
 import moment from 'moment';
