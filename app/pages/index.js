@@ -14,8 +14,17 @@ import '../style/style.css';
 
 //2nd way start
 import $ from 'zepto';
+import Swipe from 'exports?window.Swipe!../js/swipe.js';
+//轮播
+var slider = $('#slider');
+slider.find(".slide-trigger").find("li").eq(0).addClass("cur");
+window.mySwipe = new Swipe(document.getElementById('slider'), {
+	speed: 500,
+	auto: 3000,
+	callback: function(index, elem) {
+		slider.find(".slide-trigger").find("li").eq(index).addClass("cur").siblings().removeClass("cur");
+	}
+});
 
-//2nd way end
-$('body').append('<h1>Hello Worldsss</h1>');
 
 

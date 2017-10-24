@@ -28,7 +28,6 @@
     "jquery": "^2.1.4",
     "jshint": "^2.8.0",
     "jshint-loader": "^0.8.3",
-    "lodash": "^3.10.1",
     "mocha": "^2.3.4",
     "mocha-loader": "^0.7.1",
     "moment": "^2.10.6",
@@ -37,9 +36,11 @@
     "sass-loader": "^3.1.1",
     "script-loader": "^0.7.2",
     "style-loader": "^0.17.0",
+    "swipe-js": "^2.2.0",
     "url-loader": "^0.5.6",
     "webpack": "^1.12.4",
     "webpack-dev-server": "^1.12.1",
     "zepto": "^1.0.1"
-  }
+  },
+  "dependencies": {}
 }

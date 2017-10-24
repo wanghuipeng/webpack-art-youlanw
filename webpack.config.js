@@ -11,8 +11,8 @@ var BOWER_PATH = path.resolve(ROOT_PATH, 'bower_components');
 module.exports = {
   entry: {
     app: path.resolve(APP_PATH, 'index.js'),
-    mobile: path.resolve(APP_PATH, 'mobile.js'),
-    vendors: ['zepto', 'moment', 'lodash']
+    jobList: path.resolve(APP_PATH, 'jobList.js'),
+    vendors: ['zepto']
   },
   output: {
     path: BUILD_PATH,
@@ -72,6 +72,10 @@ module.exports = {
 	    {
 	      test: require.resolve('zepto'),
 	      loader: 'exports-loader?window.Zepto!script-loader'
+	    },
+	    {
+	      test: require.resolve('./app/js/swipe.js'),
+	      loader: 'exports-loader?window.Swipe!script-loader'
 	    }
     ] 
   },
@@ -92,8 +96,8 @@ module.exports = {
     }),
     new HtmlwebpackPlugin({
       title: '职位列表',
-      template: path.resolve(TEM_PATH, 'mobile.html'),
-      filename: 'mobile.html'
+      template: path.resolve(TEM_PATH, 'jobList.html'),
+      filename: 'jobList.html'
     }),
     new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js')
     //provide $, jQuery and window.jQuery to every script
