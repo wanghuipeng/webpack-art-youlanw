@@ -28,6 +28,7 @@
     "jquery": "^2.1.4",
     "jshint": "^2.8.0",
     "jshint-loader": "^0.8.3",
+    "lodash": "^4.17.4",
     "mocha": "^2.3.4",
     "mocha-loader": "^0.7.1",
     "moment": "^2.10.6",

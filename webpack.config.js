@@ -59,7 +59,7 @@ module.exports = {
         include: APP_PATH
       },
       {
-        test: /\.(png|jpg)$/,
+        test: /\.(gif|png|jpg)$/,
         loader: 'url?limit=40000'
       },
        //处理html模板
@@ -87,6 +87,11 @@ module.exports = {
   },
 
   plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
     new HtmlwebpackPlugin({
       title: '首页',
       template: path.resolve(TEM_PATH, 'index.html'),
@@ -97,7 +102,9 @@ module.exports = {
     new HtmlwebpackPlugin({
       title: '职位列表',
       template: path.resolve(TEM_PATH, 'jobList.html'),
-      filename: 'jobList.html'
+      filename: 'jobList.html',
+      chunks: ['jobList', 'vendors'],
+      inject: 'body'
     }),
     new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js')
     //provide $, jQuery and window.jQuery to every script

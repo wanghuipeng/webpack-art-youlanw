@@ -162,7 +162,7 @@ input,textarea{font:14px/1.5 'Microsoft Yahei','helvetica','arial';color:#666;}i
 .header .change{position: absolute;z-index: 10;color: #888;font-size: 13px;padding: 2px 18px 2px 0px;top: 14px;left: 15px;}
 .header .change .arrow-d{background: url(../images/m-common.png) no-repeat;width: 20px;height: 11px;background-position: 2px -164px;background-size: 24px;top: 11px;}
 .header .change:hover{background-color:#eee;}
-.header .search-input{width:75%;margin:0 auto;padding-top:11px;position:relative}
+.header .search-input{width:75%;margin:0 auto;padding-top:11px;position:relative;z-index: 10;}
 .header .search-input:before{content:"";position:absolute;left:15%;top:12px;background:url(../images/m-common.png) no-repeat;width:30px;height:30px;background-position:3px -216px;display:inline-block;background-size:26px}
 @media only screen and (min-width: 480px) {
 	.header .search-input:before{left:14%;}

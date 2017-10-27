@@ -824,3 +824,9 @@ border-width: 1px 0 0 0;}
 .joblist-sty .joblist-each .title .icon-re{background-position: 1px -550px;}
 .joblist-sty .joblist-each .title .icon-fan{background-position: -21px -447px;}
 .slide-hot{background: url(../images/m-common1.png) no-repeat;width: 15px;height: 15px;display: inline-block;background-size: 57px;background-position: 0px -480px;vertical-align: -2px;margin-left: 2px;}
+.header .change a{color: #fff;}
+	.header .change .arrow-d{background-position: 2px -364px;}
+	.header .change:active,.header .icon-homepage:active, .header .icon-search:active, .header .icon-menu:active{background-color: transparent;-webkit-tap-highlight-color: rgba(0,0,0,.3);}
+	.header .icon-menu{background-position: 7px -393px;z-index: 10;}
+	.header .search-input:before{background-position: 3px -217px;}
+	.banner{margin-top: -60px;}

@@ -1,5 +1,4 @@
-import '../style/main.css';
-import '../style/style.css';
+
 /*
  * 引入jquery plugin 有两种方法
  * 第一种把jQuery直接作成一个全局变量 这样在每个脚本中都可以直接使用
