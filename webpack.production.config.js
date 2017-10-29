@@ -7,7 +7,7 @@ var ROOT_PATH = path.resolve(__dirname);
 var APP_PATH = path.resolve(ROOT_PATH, 'app/pages');
 var BUILD_PATH = path.resolve(ROOT_PATH, 'build');
 var TEM_PATH = path.resolve(ROOT_PATH, 'templates');
-var BOWER_PATH = path.resolve(ROOT_PATH, 'bower_components');
+
 module.exports = {
   entry: {
     app: path.resolve(APP_PATH, 'index.js'),
@@ -47,13 +47,8 @@ module.exports = {
         loaders: ['style?sourceMap', 'css?sourceMap'],
       },
       {
-        test: /\.scss$/,
-        loaders: ['style', 'css?sourceMap', 'sass?sourceMap'],
-        include: APP_PATH
-      },
-      {
         test: /\.(gif|png|jpg)$/,
-        loader: 'url?limit=40000'
+        loader: 'url?limit=40'
       },
        //处理html模板
 	    {
@@ -98,6 +93,13 @@ module.exports = {
       template: path.resolve(TEM_PATH, 'jobList.html'),
       filename: 'jobList.html',
       chunks: ['jobList', 'vendors'],
+      inject: 'body'
+    }),
+    new HtmlwebpackPlugin({
+      title: '找工作',
+      template: path.resolve(TEM_PATH, 'searchJob.html'),
+      filename: 'searchJob.html',
+      chunks: ['searchJob', 'vendors'],
       inject: 'body'
     }),
     new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js')

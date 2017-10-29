@@ -6,6 +6,63 @@
   </head>
   <body>
   	<div class="page-wrapper">
+  		<!--header-->
+			<div class="header">
+				<div class="linkage-select">
+					<div class="form-g-each-r overflow-hide change m-select-area" data-role="m-select-area">
+						<a href="javascript:void(0)">上海<i class="arrow-d"></i></a>
+					</div>
+				</div>
+				<a href="./searchJob.html">
+            <div class="search-input">
+            	<input type="text" placeholder="请输入您想查找的职位" />
+            </div>
+        </a>
+				<a href="http://m.youlanw.com/account/center" class="icon-menu"></a>
+			</div>
+			<!--/header-->
+			<!--地区选择-->
+			<div class="linkage-select-panel" id="m-select-area">
+				<div class="first-step">
+					    <div class="box-g-w-2 cities">
+					        <a href="http://m.shr.ren/sh/" class="blue">上海</a>
+					        <a href="http://m.shr.ren/su/">苏州</a>
+					        <a href="http://m.shr.ren/nj/">南京</a>
+					        <a href="http://m.shr.ren/cq/">重庆</a>
+					        <a href="http://m.shr.ren/cd/">成都</a>
+					        <div class="hr-g-2"></div>
+					        <a href="http://m.shr.ren/hz/">杭州</a>
+					        <a href="http://m.shr.ren/tj/">天津</a>
+					        <a href="http://m.shr.ren/wh/">武汉</a>
+					        <a href="http://m.shr.ren/xm/">厦门</a>
+					        <a href="http://m.shr.ren/nb/">宁波</a>
+					        <div class="hr-g-2"></div>
+					        <a href="http://m.shr.ren/wx/">无锡</a>
+					        <a href="http://m.shr.ren/hf/">合肥</a>
+					        <a href="http://m.shr.ren/nc/">南昌</a>
+					        <a href="http://m.shr.ren/bj/">北京</a>
+					        <a href="http://m.shr.ren/xa/">西安</a>
+					    </div>
+					    <div class="clear"></div>
+					    <!--当前定位-->
+					    <div class="title-g-2">当前定位：<a href="" class="blue">上海</a><a href="http://m.shr.ren/changeCity.html" class="right blue">全部招聘城市&nbsp;&gt;&gt;</a></div>
+					    <!--/当前定位-->
+			    </div>
+			</div>
+			<!--、地区选择-->
+			<!--导航panel-->
+			<div class="nav-panel bg-white">
+				<div class="nav-menu">
+			      <a href="http://m.youlanw.com/changeCity.html" class="city">切换城市：<span class="red">上海</span></a>
+			      <a href="http://m.youlanw.com/account/center" class="user">个人中心</a>
+			      <a href="http://m.youlanw.com/account/viewRecord" class="record">浏览记录</a>
+			      <a href="http://m.youlanw.com/feedback.html" class="feedback">意见反馈</a>
+			      <a href="http://m.youlanw.com/sh_zp_0_0_0_0.html" class="nearJob">附近找工作</a>
+			      <a href="http://m.youlanw.com/sh_zhaopin/" class="areaJob">上海找工作</a>
+			      <a href="http://m.youlanw.com/sh_qiye/" class="compRecruit">名企招聘</a>
+			  </div>
+			</div>
+			<!--/导航panel-->
   		  <!--轮播图-->
         <%= require('html-loader!./components/banner.html')  %>
         <!--/轮播图-->
