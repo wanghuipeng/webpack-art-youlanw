@@ -3,14 +3,23 @@
   <head>
     <title><%= htmlWebpackPlugin.options.title %>_优蓝网</title>
     <%= require('html-loader!./layout/header-meta.html')  %>
-    <style>
-    	
-
-    </style>
   </head>
   <body>
   	<div class="page-wrapper">
+  		  <!--轮播图-->
         <%= require('html-loader!./components/banner.html')  %>
+        <!--/轮播图-->
+        <div class="divider"></div>
+        <!--筛选-->
+		    <%= require('html-loader!./components/selector.html')  %>
+		    <!--/筛选-->
+		    <!--job list-->
+		    <%= require('html-loader!./components/list.html')  %>
+			  <!--/job list-->
+			  <p>
+					<a href="./jobList.html" class="view-more">查看更多招工信息&nbsp;&gt;&gt;</a>
+				</p>
   	</div>
   </body>
+  <script type="text/javascript" src="../app/js/common.js"></script>
 </html>

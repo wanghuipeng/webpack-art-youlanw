@@ -5,6 +5,58 @@
     <%= require('html-loader!./layout/header-meta.html')  %>
   </head>
   <body>
-    <h3>Welcome to jobList pages</h3>
+    <!--搜索-->
+    <div class="search-box border-t search-box-sty">
+    	<div class="linkage-select">
+    	    <div class="form-g-each-r overflow-hide change" data-role="m-select-area">
+				<a href="javascript:void(0)">上海<i class="arrow-d-2"></i></a>
+			</div>
+		</div>
+        <div class="inner">
+            <input type="text" placeholder="请输入你想查找的企业或职位" class="text"/><input type="button" class="btn" value=""/>
+        </div>
+    </div>
+    <!--/搜索-->
+    <!--地区选择-->
+    <div class="linkage-select-panel" id="m-select-area" >
+    	<div class="first-step">
+			    <div class="box-g-w-2 cities">
+			        <a href="http://m.youlanw.com/sh/" class="blue" >上海</a>
+			        <a href="http://m.youlanw.com/su/"  >苏州</a>
+			        <a href="http://m.youlanw.com/nj/"  >南京</a>
+			        <a href="http://m.youlanw.com/cq/"  >重庆</a>
+			        <a href="http://m.youlanw.com/cd/"  >成都</a>
+			        <div class="hr-g-2"></div>
+			        <a href="http://m.youlanw.com/hz/"  >杭州</a>
+			        <a href="http://m.youlanw.com/tj/"  >天津</a>
+			        <a href="http://m.youlanw.com/wh/"  >武汉</a>
+			        <a href="http://m.youlanw.com/xm/"  >厦门</a>
+			        <a href="http://m.youlanw.com/nb/"  >宁波</a>
+			        <div class="hr-g-2"></div>
+			        <a href="http://m.youlanw.com/wx/"  >无锡</a>
+			        <a href="http://m.youlanw.com/hf/"  >合肥</a>
+			        <a href="http://m.youlanw.com/nc/"  >南昌</a>
+			        <a href="http://m.youlanw.com/bj/"  >北京</a>
+			        <a href="http://m.youlanw.com/xa/"  >西安</a>
+			    </div>
+			    <div class="clear"></div>
+			    <!--当前定位-->
+			    <div class="title-g-2">当前定位：<a href="" class="blue">上海</a><a href="http://m.youlanw.com/changeCity.html" class="right blue">全部招聘城市&nbsp;&gt;&gt;</a></div>
+			    <!--/当前定位-->
+       </div>
+    </div>
+    <!--/地区选择-->
+    <!--筛选-->
+    <%= require('html-loader!./components/selector.html')  %>
+    <!--/筛选-->
+    <!--job list-->
+    <%= require('html-loader!./components/list.html')  %>
+	  <!--/job list-->
+		<!--分页-->
+	    <div class="paging">
+			<a href="javascript:void(0)">上一页</a><a href="javascript:void(0)" class="blue">下一页</a>
+		</div>
+	  <!--分页-->
   </body>
+  <script type="text/javascript" src="../app/js/common.js"></script>
 </html>

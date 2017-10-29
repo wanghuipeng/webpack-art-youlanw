@@ -106,6 +106,13 @@ module.exports = {
       chunks: ['jobList', 'vendors'],
       inject: 'body'
     }),
+    new HtmlwebpackPlugin({
+      title: '找工作',
+      template: path.resolve(TEM_PATH, 'searchJob.html'),
+      filename: 'searchJob.html',
+      chunks: ['searchJob', 'vendors'],
+      inject: 'body'
+    }),
     new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js')
     //provide $, jQuery and window.jQuery to every script
     /*new webpack.ProvidePlugin({
